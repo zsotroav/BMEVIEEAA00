@@ -26,11 +26,13 @@ ha újra megírod őket.
 Az include guardokat ne felejtsd le a header fájlokból!
 
 ## Elvárt megoldás
-Öt fájl:
+Hét fájl:
 - szoveg.h
 - szoveg.c
 - matek.h
 - matek.c
+- keres.h
+- keres.c
 - main.c
 
 ## Fájlok tartalma:
