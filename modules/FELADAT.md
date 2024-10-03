@@ -1,6 +1,6 @@
 # Modulokra bontás - fakultatív labor feladat
 
-Adott: Egy `main.c` és egy `fuggvenyek.c` fájl.
+Adott: Egy [main.c](main.c) és egy [fuggvenyek.c](fuggvenyek.c) fájl.
 
 ## Feladat
 - Értelmezd és írj kommentet a kódhoz, használj doxygen docblock-okat is!
@@ -38,7 +38,7 @@ Hét fájl:
 ## Fájlok tartalma:
 Ezeket megtalálod külön fájlokként is, nem feltétlen innen kell kimásolni őket.
 
-### `main.c`
+### [main.c](main.c)
 
 ```c
 #include "matek.h"
@@ -58,7 +58,7 @@ int main() {
 
 ```
 
-### `fuggvenyek.c`
+### [fuggvenyek.c](fuggvenyek.c)
 
 ```c
 #include <stdio.h>
@@ -102,7 +102,7 @@ int fac(int a) {
 }
 ```
 
-### Elvárt kimenet
+### [Elvárt kimenet](output.txt)
 ```
 +-------------+
 |Hello, world!|
