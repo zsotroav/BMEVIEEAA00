@@ -11,7 +11,7 @@ void border(int s) {
 }
 
 int pw(int b, int p) {
-    int re = b;
+    int re = 1;
     for (int i = 0; i < p; ++i) re *= b;
     return re;
 }
