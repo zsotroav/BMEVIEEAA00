@@ -10,18 +10,17 @@ nélkül leforduljon és helyes kimenetet adjon!
   - A `fuggveny.c` fájlból minden sor csak egyszer fog kelleni. Hogy a kettő
 közül melyik fájlba, azt neked kell megállapítanod. 
   - Az include guardokat ne felejtsd el!
-- Egészítsd ki a `matek.h` és `matek.c` fájlokat egy függvénnyel ami egy
+- Egészítsd ki a `matek.h` és `matek.c` fájlokat egy függvénnyel, ami egy
 másodfokú egyenletnek a három változója (a, b, és c; mind egész) alapján
 megmondja hány megoldása van.
-- Készíts egy `keres` modult amibe implementálj egy minimum és egy maximum
+- Készíts egy `keres` modult, amibe implementálj egy minimum és egy maximum
 kereső függvényt. A függvény vegyen paraméternek egy int tömböt és a tömb
 hosszát, visszatérési értéke pedig legyen a legnagyobb/kisebb elem értéke.
-- Az elkésztett függvények használatát mutasd is be a main.c kiegészítésével
-vagy egy másik fájlban, egy másik main függvény elkésztésével.
+- Az elkésztett függvények használatát mutasd is be a main.c kiegészítésével.
 
 ## Emlékesztető
 Korábbi laborokon csináltunk már nagyon hasonló program részleteket és
-függvényeket. Érdemes lehet ezeket megnézni ha elakadnál, de gyakorlásnak jó
+függvényeket. Érdemes lehet ezeket megnézni, ha elakadnál, de gyakorlásnak jó
 ha újra megírod őket.
 
 Az include guardokat ne felejtsd le a header fájlokból!
@@ -34,7 +33,7 @@ Hét fájl:
 - szoveg.c
 - matek.h
 - matek.c
-- main.c / demo.c -- függvény használat bemutatás
+- main.c
 
 ## Fájlok tartalma:
 Ezeket megtalálod külön fájlokként is, nem feltétlen innen kell kimásolni őket.
