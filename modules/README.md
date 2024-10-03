@@ -30,15 +30,15 @@ függvényeket pedig érdemes külön modulokba szétszedni. Miért? Hogy átlá
 és egyszerűen olvasható/kiegészíthető legyen a kód.
 
 ## Függvények
-Ökölszabály: Egy függvény férjen el kényelmesen a kijelzőn görgetés nélkül, 
-ez körülbelül 30-40 sort jelent maximum. Ha ennél hosszabb függvényeket írunk
-akkor már valószínűleg vagy túl bonyolítjuk, vagy nem bontjuk szét rendesen.
+Ökölszabály: Egy függvény férjen el kényelmesen a kijelzőn görgetés nélkül; 
+ez körülbelül 30-40 sort jelent maximum. Ha ennél hosszabb függvényeket írunk,
+akkor már valószínűleg vagy túlbonyolítjuk, vagy nem bontjuk szét rendesen.
 
 ### Deklaráció vs Implementáció
 Egy függvénynek (C és C++ nyelveken) van külön deklarációja és implementációja.
 
 #### Deklaráció
-Azt írjuk le, hogy ez a függvény létezik, nem pedig azt hogy mit csinál.
+Azt írjuk le, hogy ez a függvény létezik, nem pedig azt, hogy mit csinál.
 
 ```c
 // Kiírjuk a köszönést
@@ -48,7 +48,7 @@ void hello();
 A deklaráció fölé érdemes leírni, hogy az adott funkció mit csinál, milyen
 paramétereket vár, és esetlegesen mit ad vissza. Erre a leggyakoribb és
 elterjedtebb formátum a 
-[Doxygen docblock](https://www.doxygen.nl/manual/docblocks.html) formátum.
+[Doxygen docblock](https://www.doxygen.nl/manual/docblocks.html).
 
 ```c
 /**
@@ -99,8 +99,8 @@ Egy modulba mindig csak összetartozó függvényeket érdemes kigyűjteni. Semm
 értelme a modulokra bontásnak ha utána is csak össze vissza van a kód.
 
 ### Mappa struktúra
-C/C++ nyelveken nincsen semmilyen megkötés a mappa rendszerre, de ezeket a
-modulokat általában az így szokás kezelni:
+C/C++ nyelveken nincsen semmilyen megkötés a mapparendszerre, de ezeket a
+modulokat általában így szokás kezelni:
 ```
 project
 ├── include
@@ -127,7 +127,7 @@ readme, licensz, makefile, IDE dolgok, stb...)
 - `include` mappában a `.h` fájlok
 - `lib` (library) mappában a mások által írt könyvtárak, saját mappákban
   - Ezen belül a mapa struktúra maradjon az amit a könyvtár hozott
-- `src` (Source) mappában a `.c` és egyéb forrás fájlok
+- `src` (source) mappában a `.c` és egyéb forrás fájlok
 
 ### Header fájlok használata
 A `.h` fájlokat lehet "include"-olni a fájl elején:
@@ -151,14 +151,14 @@ fájlban, hogy elmondjuk neki hol kell keresni a header fájlokat:
 include_directories(include)
 ```
 
-Ennek hiányában a teljes elérési útvonalat ki kell írni:
+Ennek hiányában a teljes (relatív) elérési útvonalat ki kell írni:
 
 ```c
 #include "include/matek.h"
 ```
 
 ### Header fájlok felépítése
-Egy header fájl mindig az úgy nevezett include guard-al kezdődik és végződik:
+Egy header fájl mindig az úgynevezett include guard-al kezdődik és végződik:
 
 ```c
 #ifndef HEADER_H
@@ -178,10 +178,10 @@ compiler error lenne)
 A preprocessor makrók értelmezve:
 - `#ifndef HEADER_H` - if not defined - Ha nincsen `HEADER_H` makró definiálva
 - `#define HEADER_H` - Definiáljuk a `HEADER_H` makrót
-- `#endif` - jelöli, hogy meddig érvényes az if
+- `#endif` - Jelöli, hogy meddig érvényes az if
 
 Azaz egy mondatban: Csak akkor vedd figyelembe ezt a kódot, ha eddig még nem
-láttad eddig soha, különben ugord át.
+láttad soha, különben ugord át.
 
 ## De mégis mire jó ez?
 
@@ -200,10 +200,10 @@ void echo(char* string) {
 ```
 
 Ez nem fordulna le csak így, hiszen az `echo()` függvényt hamarabb hívjuk meg,
-mint hogy leírtuk volna mit csinál. Ez elkerülhető, ha a fájl tetejére oda
-írjuk a deklarációt (hiszen az include is ugyan ezt csinálná), de mi van akkor
-ha sok más helyen is kell nekünk az `echo` függvény és nem csak itt? Hamar
-káosz tud ebből lenni...
+mint hogy leírtuk volna mit csinál. Ez elkerülhető, ha a fájl tetejére
+odaírjuk a deklarációt (hiszen az include is ugyanezt csinálná), de mi van
+akkor, ha sok más helyen is kell nekünk az `echo` függvény, és nem csak itt?
+Hamar káosz tud ebből lenni...
 
 ### Egyszer megírod, sokszor használod
 Gondolj a jól ismert egyszerű C függvényekre: `printf`, `scanf`
@@ -212,8 +212,8 @@ Ha egyszer megírod (vagy te, vagy valaki más) és a gépen telepíted, egy dar
 `#include`-al nagyon sok munkát meg lehet spórolni.
 
 ### A program kisebb, emészthetőbb részekre bomlik szét
-Egy fájlban az összetartozó dolgok vannak: matematikai függvények, szöveg
-kezelés, bemenet/kimenet megvalósítása, stb...
+Egy fájlban az összetartozó dolgok vannak: matematikai függvények,
+szövegkezelés, bemenet/kimenet megvalósítása, stb...
 
 Ha rendesen szét van szedve a program, a `main.c` könnyen leegyszerűsíthető
 néhány sor kódra ahol beszédes nevű függvények dolgoznak, amiket könnyen meg
@@ -222,7 +222,7 @@ is tudunk keresni.
 ## Legal & License
 Készítette: Török Zsombor, 2024. október 3.
 
-Ez a feladat és segád anyag nem hivatalos, egy hivatalos labor kiegészítésének
+Ez a feladat és segádanyag nem hivatalos, egy hivatalos labor kiegészítésének
 készült.
 
 Elérhető a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0
