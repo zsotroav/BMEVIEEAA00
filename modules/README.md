@@ -79,9 +79,9 @@ int strlen(char* string) {
 
     // Addig megyünk amíg meg nem találjuk a lezáró nullát
     while (strin[length] != '\0') {
-        lenght++;
+        length++;
     }
-    return lenght;
+    return length;
 }
 ```
 
@@ -228,3 +228,4 @@ készült.
 Elérhető a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! 4.0
 ([CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.hu))
 Nemzetközi Licensz alapján.
+
