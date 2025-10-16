@@ -208,3 +208,4 @@ Pénzvisszaadós automatába kell egy olyan programrészt írnunk, amelyik a vis
 ## Konzisite
 <!-- _class: qr -->
 ![Konzi](./konzi.png)
+Értékeld a konzit ha tetszett: https://konzi.vik.hk/consultations/136
