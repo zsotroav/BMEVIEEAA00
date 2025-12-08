@@ -42,7 +42,7 @@ https://go.zsotroav.dev/konzi
 
 ## ZH Menete
 
-- Három feladat: 10+10+20 pont, 90 perc
+- Három feladat: összesen 40 pont, 90 perc
   - Első két feladat kis ZH jellegű és méretű
   - Harmadik feladat nagyobb, összetettebb
 - **PAPÍR ALAPÚ!**
@@ -208,4 +208,5 @@ Pénzvisszaadós automatába kell egy olyan programrészt írnunk, amelyik a vis
 ## Konzisite
 <!-- _class: qr -->
 ![Konzi](./konzi.png)
-Értékeld a konzit ha tetszett: https://konzi.vik.hk/consultations/136
+Értékeld a konzit ha tetszett: 
+https://konzi.vik.hk/consultations/136
