@@ -18,7 +18,7 @@ style: |
   p.small { font-size: 30px; }
 ---
 
-# **Prog 1 ZH1 konzi**
+# **Prog 1 ZH2 konzi**
 
 VIEEAA00/VIHIAA01 - 2025 
 Török Zsombor
@@ -32,7 +32,7 @@ https://go.zsotroav.dev/konzi
 Mérnökinfósok:
 - **JELENTKEZNI KELLETT INFOC-N**
   - iMSc feladat: 70% felett javítva, extra pont
-- 2025-10-21 - 18:00
+- 2025-12-12 - 8:00
 - Terembeosztás InfoC-n
 
 ## Anyag:
@@ -69,10 +69,12 @@ Nem lesz idő átmásolni ha saját lapra írod!
 
 - Gyakorolj sokat!
   - Autocomplete sokat segít, de attól nem fogod megérteni
-- Olvassuk végig, értsük meg a feladatot mielőtt elkezdjük!
-  - Gyakran vannak tippek a megfogalmazásban, feladat végén.
-  - Legyen nagyvonalú terv mielőtt elkezdünk kódot írni.
-  - Gondold végig, akár rajzold/írd le az algoritmus működését
+- Olvasd VÉGIG és ÉRTSD MEG a feladatot mielőtt elkezded!
+- Tervezd meg nagyvonalakban a megoldást a fejedben!
+  - Először tudd magyarul elmondani mit csinál a program
+- Bontsd le kisebb részekre a feladatot!
+  - Nem kell túlkomplikálni egy nagy ciklussal, ha több kis ciklussal is megoldható
+- Rajzolj a listáknál, fáknál, állapotgépeknél!
 
 ---
 
@@ -107,18 +109,6 @@ for (int i = 0; arr[i] != '\0'; i++) {
 }
 
 ```
-
----
-
-## Tanácsok
-
-- Olvasd VÉGIG és ÉRTSD MEG a feladatot mielőtt elkezded!
-- Tervezd meg nagyvonalakban a megoldást a fejedben!
-  - Először tudd magyarul elmondani mit csinál a program
-- Bontsd le kisebb részekre a feladatot!
-  - Nem kell túlkomplikálni egy nagy ciklussal, ha több kis ciklussal is megoldható
-- Nem a hatékonyság a cél!
-- Rajzolj a listáknál, fáknál, állapotgépeknél!
 
 ---
 
