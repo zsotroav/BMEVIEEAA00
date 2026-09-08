@@ -10,7 +10,7 @@ int e = 0; //!< E (eredmény) regiszter
 int z = 0; //!< Z (zero) flag
 
 // Bemeneti tömbök
-const int inp_a[] = {0, 1, 0, 1, 2, 3};
+const int inp_a[] = {0, 1, 0, 7, 8, 9};
 const int inp_b[] = {0, 0, 0, 4, 5, 6};
 // Bemenet mérete
 const int size = 6; 
